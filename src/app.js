@@ -19,6 +19,9 @@ window.onload = function() {
     "while I was praying"
   ];
   let indexwho = Math.floor(Math.random() * who.length);
-  let indexAction = Math.floor(Math.random() * action.length);
-  let what;
+  let indexaction = Math.floor(Math.random() * action.length);
+  let indexwhat = Math.floor(Math.random() * what, length);
+  let indexwhen = Math.floor(Math.random() * when.length);
+  let subtitulo = document.querySelector("#excusa");
+  subtitulo.innerHTML = who[indexwho];
 };
